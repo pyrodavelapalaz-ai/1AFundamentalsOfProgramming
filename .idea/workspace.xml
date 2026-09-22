@@ -80,7 +80,7 @@
       <recent name="C:\Users\pyrod\IdeaProjects\Bautista-D\1st Coding Activity (Bautista, Badong)" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.fourthJava">
+  <component name="RunManager" selected="Application.firstJava">
     <configuration name="firstJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="firstJava" />
       <module name="Bautista-D" />
@@ -102,13 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testing123go" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testing123go" />
-      <module name="Bautista-D" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="thirdJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thirdJava" />
       <module name="Bautista-D" />
@@ -122,7 +115,6 @@
         <item itemvalue="Application.thirdJava" />
         <item itemvalue="Application.secondJava" />
         <item itemvalue="Application.firstJava" />
-        <item itemvalue="Application.testing123go" />
       </list>
     </recent_temporary>
   </component>
