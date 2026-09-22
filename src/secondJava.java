@@ -12,10 +12,10 @@ public class secondJava {
         String crush = "Karl";
         String crush2 = "none";
         {
-            //printf format
+            //printf formatting
             System.out.printf("%s %nName: %s %nAddress: %s %nContact Number: %s %nAge: %d %nCrush: %s %n %n",
                     design, firstName, address, contactNumber, age, crush);
-            //println format
+            //println formatting
             System.out.println("Name: " + firstName2);
             System.out.println("Address: " + address2);
             System.out.println("Contact Number: " + contactNumber2);
