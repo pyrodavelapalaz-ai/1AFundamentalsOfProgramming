@@ -7,7 +7,7 @@ public class labQuiz2 {
         String name = "";
         String porkInput = "";
 
-        name = JOptionPane.showInputDialog("Welcome to Adobo Cooking Show! Enter your name:");
+        name = JOptionPane.showInputDialog("Welcome to Adobo Cooking Show!" + System.lineSeparator() + "Enter your name:");
 
         String msg = "Hello " + name + "!";
         JOptionPane.showMessageDialog(null, msg);
@@ -19,9 +19,10 @@ public class labQuiz2 {
         Double soyAns = 0.5 * porkKg;
         Double vinAns = 0.33 * porkKg;
 
-        String soy = "The ratio of soy sauce for " + porkKg + "kg is = " + soyAns;
-        String vin = "The ratio of vinegar for " + porkKg + "kg is = " + vinAns;
-        JOptionPane.showMessageDialog(null, vin, soy, JOptionPane.INFORMATION_MESSAGE);
+        String msg2 = "Here is the ratio for " + porkKg + "kg of pork:";
+        String soy = "The ratio of soy sauce for " + porkKg + "kg is = " + soyAns + System.lineSeparator() +
+                "The ratio of vinegar for " + porkKg + "kg is = " + vinAns;
+        JOptionPane.showMessageDialog(null, soy, msg2, JOptionPane.INFORMATION_MESSAGE);
 
     }
 }
