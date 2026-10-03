@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.io.IOException;
 
 // Write a program that would input the year and then indicate whether that year is a leap year or not.
 

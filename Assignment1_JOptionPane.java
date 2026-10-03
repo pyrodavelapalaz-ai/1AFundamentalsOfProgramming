@@ -1,5 +1,4 @@
-import javax.swing.*;
-import java.io.IOException;
+import javax.swing.JOptionPane;
 
 // Write a program that would input the year and then indicate whether that year is a leap year or not.
 
