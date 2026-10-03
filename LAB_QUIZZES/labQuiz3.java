@@ -1,3 +1,5 @@
+package LAB_QUIZZES;
+
 import javax.swing.JOptionPane;
 
 /*

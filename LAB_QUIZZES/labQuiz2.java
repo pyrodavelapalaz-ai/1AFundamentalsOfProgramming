@@ -1,4 +1,4 @@
-// w/ Edmon Go (Group)
+package LAB_QUIZZES;// w/ Edmon Go (Group)
 
 import javax.swing.JOptionPane;
 
