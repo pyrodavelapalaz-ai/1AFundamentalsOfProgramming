@@ -23,6 +23,16 @@ public class Assignment2_JOptionPane {
 
             JOptionPane.showMessageDialog(null, msg6, msg5, JOptionPane.INFORMATION_MESSAGE);
 
+            String msg7 = "In Order to see Your Current Net Pay, " +
+                    "Please Enter your Hourly Rate and Hours Worked." + "\n" + "\n" +
+                    "Withholding Tax Reference: " + "\n" +
+                    "0-2000 Php:     (10%)" + "\n" +
+                    "2001-4000 Php:  (12%)" + "\n" +
+                    "4001-10000 Php: (15%)" + "\n" +
+                    "10000+ Php:     (20%)" + "\n";
+
+            JOptionPane.showMessageDialog(null, msg7, msg5, JOptionPane.INFORMATION_MESSAGE);
+
             String name = "";
             name = JOptionPane.showInputDialog("Please enter your name:");
             String nameMsg = "Hello " + name + "!";
