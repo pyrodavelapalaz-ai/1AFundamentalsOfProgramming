@@ -1,3 +1,5 @@
+package Decision_Control_Structure_ASSIGNMENT2;
+
 import java.util.Scanner;
 
 /*
