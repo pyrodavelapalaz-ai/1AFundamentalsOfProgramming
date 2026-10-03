@@ -39,7 +39,7 @@ public class Assignment2_BufferedReader {
                     System.exit(0);
                 }
 
-                System.out.println("Enter your Hours Worked (Php): ");
+                System.out.println("Enter your Hours Worked: ");
                 String hours = totalPay.readLine();
                 int hoursWorked = Integer.parseInt(hours.trim());
                 if (hoursWorked < 0) {

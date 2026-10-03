@@ -42,18 +42,18 @@ public class Assignment2_JOptionPane {
             String hours = "";
             String rate = "";
 
-            hours = JOptionPane.showInputDialog("Enter your Hours Worked (Php): ");
-
-            int hoursWorked = Integer.parseInt(hours.trim());
-            if (hoursWorked < 0) {
-                JOptionPane.showMessageDialog(null, msg3, msg2, JOptionPane.ERROR_MESSAGE);
-                return;
-            }
-
             rate = JOptionPane.showInputDialog("Enter your Hourly Pay (Php): ");
 
             int payRate = Integer.parseInt(rate.trim());
             if (payRate < 0) {
+                JOptionPane.showMessageDialog(null, msg3, msg2, JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+
+            hours = JOptionPane.showInputDialog("Enter your Hours Worked: ");
+
+            int hoursWorked = Integer.parseInt(hours.trim());
+            if (hoursWorked < 0) {
                 JOptionPane.showMessageDialog(null, msg3, msg2, JOptionPane.ERROR_MESSAGE);
                 return;
             }

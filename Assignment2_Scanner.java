@@ -35,7 +35,7 @@ public class Assignment2_Scanner {
             return;
         }
 
-        System.out.println("Enter your Hours Worked (Php): ");
+        System.out.println("Enter your Hours Worked: ");
         if (!totalPay.hasNextInt()) {
             System.err.println("Invalid format! Please enter digits only. ^o^");
             totalPay.close();
