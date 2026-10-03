@@ -1,4 +1,4 @@
-// w/ Cyril Badong (Group)
+package LAB_ACTIVITIES;// w/ Cyril Badong (Group)
 
 public class secondJava {
     public static void main(String[] args) {

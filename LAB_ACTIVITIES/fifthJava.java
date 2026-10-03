@@ -1,4 +1,4 @@
-// w/ Edmon Go (Group)
+package LAB_ACTIVITIES;// w/ Edmon Go (Group)
 
 import java.io.BufferedReader;
 import java.io.IOException;

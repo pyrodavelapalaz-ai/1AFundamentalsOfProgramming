@@ -1,4 +1,4 @@
-// w/ Cyril Badong (Group)
+package LAB_ACTIVITIES;// w/ Cyril Badong (Group)
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
