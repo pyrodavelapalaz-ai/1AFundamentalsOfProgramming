@@ -1,3 +1,5 @@
+package Decision_Control_Structure_ASSIGNMENT1;
+
 import java.util.Scanner;
 
 // Write a program that would input the year and then indicate whether that year is a leap year or not.
