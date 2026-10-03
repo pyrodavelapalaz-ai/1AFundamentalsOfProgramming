@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class fourthJava {
     public static void main(String[] args) {
-        String filePath = "Bautista and Badong.txt";
+        String filePath = "LAB_ACTIVITIES/Bautista and Badong.txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             writer.write("This is the first line of text.");
             writer.newLine();
