@@ -108,6 +108,7 @@ public class Assignment3_JOptionPane {
                         "Check the Qualification Reference for more information." + "\n" + msg10);
                 return;
                 }
+
         } catch (NumberFormatException e) {
             String msg2 = "Result:";
             String msg4 = "Invalid format! Please enter digits only. ^o^";

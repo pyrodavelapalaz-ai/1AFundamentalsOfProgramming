@@ -38,15 +38,14 @@ public class Assignment3_BufferedReader {
                         "Entrance Exam Score:                    below 85" + "\n"
                 );
 
-                System.out.println("Enter your Parent's Salary (Php): ");
-                String salary = scholarship.readLine();
-                int pSalary = Integer.parseInt(salary.trim());
-
                 String rejectedMSG = "Your availment for the College Scholarship is:" + "\n" + "REJECTED" + "\n";
                 String acceptedMSG = "Your availment for the College Scholarship is:" + "\n" + "ACCEPTED" + "\n";
                 String SFFSMSG = "Your availment for the College Scholarship is:" + "\n" +
                         "SUBJECTED FOR FURTHER STUDY" + "\n";
 
+                System.out.println("Enter your Parent's Salary (Php): ");
+                String salary = scholarship.readLine();
+                int pSalary = Integer.parseInt(salary.trim());
                 if (pSalary < 0) {
                     System.err.println("Invalid format! Please positive digits only. ^o^");
                     System.exit(0);
@@ -95,7 +94,8 @@ public class Assignment3_BufferedReader {
                 else {
                     System.out.println(SFFSMSG);
                     System.out.println("Reason: " + "\n" + "Result is neither accepted nor rejected due to qualification requirement gap. " +
-                            "Your Qualification is currently under Further Review.");
+                            "Your Qualification is currently under Further Review." + "\n" +
+                            "Check the Qualification Reference for more information.");
                     System.exit(0);
                 }
 
