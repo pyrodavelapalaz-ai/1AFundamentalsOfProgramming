@@ -272,7 +272,7 @@ public class Assignment4_BufferedReader {
 
                 System.out.println("\n" + "Applicant Code:" + "\n" +
                         "Name: " + name + "\n" +
-                        "Height: " + reqHeight + "\n" + "cm" +
+                        "Height: " + reqHeight +  "cm" + "\n" +
                         "Age: " + reqAge + "\n" +
                         "Citizenship: " + reqCitizenship + " (" + cCode + ")" + "\n" +
                         "Recommendee Code: " + rCode + "\n" +
