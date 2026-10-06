@@ -46,7 +46,7 @@ public class Assignment2_JOptionPane {
 
             rate = JOptionPane.showInputDialog("Enter your Hourly Pay (Php): ");
 
-            double payRate = Integer.parseInt(rate.trim());
+            double payRate = Double.parseDouble(rate.trim());
             if (payRate < 0) {
                 JOptionPane.showMessageDialog(null, msg3, msg2, JOptionPane.ERROR_MESSAGE);
                 return;
@@ -54,7 +54,7 @@ public class Assignment2_JOptionPane {
 
             hours = JOptionPane.showInputDialog("Enter your Hours Worked: ");
 
-            double hoursWorked = Integer.parseInt(hours.trim());
+            double hoursWorked = Double.parseDouble(hours.trim());
             if (hoursWorked < 0) {
                 JOptionPane.showMessageDialog(null, msg3, msg2, JOptionPane.ERROR_MESSAGE);
                 return;

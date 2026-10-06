@@ -35,7 +35,7 @@ public class Assignment2_BufferedReader {
 
                 System.out.println("Enter your Hourly Rate (Php): ");
                 String rate = totalPay.readLine();
-                double payRate = Integer.parseInt(rate.trim());
+                double payRate = Double.parseDouble(rate.trim());
                 if (payRate < 0) {
                     System.err.println("Invalid format! Please positive digits only. ^o^");
                     System.exit(0);
@@ -43,7 +43,7 @@ public class Assignment2_BufferedReader {
 
                 System.out.println("Enter your Hours Worked: ");
                 String hours = totalPay.readLine();
-                double hoursWorked = Integer.parseInt(hours.trim());
+                double hoursWorked = Double.parseDouble(hours.trim());
                 if (hoursWorked < 0) {
                     System.err.println("Invalid format! Please positive digits only. ^o^");
                     System.exit(0);

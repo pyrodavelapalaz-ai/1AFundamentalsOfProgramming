@@ -44,14 +44,14 @@ public class Assignment2_Scanner {
             return;
         }
 
-        double rate = totalPay.nextInt();
+        double rate = totalPay.nextDouble();
         if (rate < 0) {
             System.err.println("Invalid format! Please positive digits only. ^o^");
             totalPay.close();
             return;
         }
 
-        double hours = totalPay.nextInt();
+        double hours = totalPay.nextDouble();
         if (hours < 0) {
             System.err.println("Invalid format! Please positive digits only. ^o^");
             totalPay.close();
