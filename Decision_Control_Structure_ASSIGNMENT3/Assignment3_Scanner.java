@@ -9,7 +9,7 @@ For Scholarship:
     - NSAT Score: <90
     - Entrance Exam Score: <85
 
-    ACCEPTED (all).
+    ACCEPTED (all)
     - Parent's Salary: at most 3,500
     - Average of NSAT and Entrance Exam Score: >90
  */
@@ -39,7 +39,7 @@ public class Assignment3_Scanner {
             String SFFSMSG = "Your availment for the College Scholarship is:" + "\n" +
                     "SUBJECTED FOR FURTHER STUDY" + "\n";
 
-            System.out.println("Enter your Parent's Salary Score: ");
+            System.out.println("Enter your Parent's Salary (Php): ");
             String salary = scholarship.nextLine();
             double pSalary = Integer.parseInt(salary.trim());
             if (pSalary < 0) {
