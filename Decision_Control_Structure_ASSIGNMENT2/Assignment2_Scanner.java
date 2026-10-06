@@ -31,14 +31,14 @@ public class Assignment2_Scanner {
         );
         
         System.out.println("Enter your Hourly Rate (Php): ");
-        if (!totalPay.hasNextInt()) {
+        if (!totalPay.hasNextDouble()) {
             System.err.println("Invalid format! Please enter digits only. ^o^");
             totalPay.close();
             return;
         }
 
         System.out.println("Enter your Hours Worked: ");
-        if (!totalPay.hasNextInt()) {
+        if (!totalPay.hasNextDouble()) {
             System.err.println("Invalid format! Please enter digits only. ^o^");
             totalPay.close();
             return;
