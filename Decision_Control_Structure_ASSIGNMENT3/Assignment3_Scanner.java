@@ -41,7 +41,7 @@ public class Assignment3_Scanner {
 
             System.out.println("Enter your Parent's Salary (Php): ");
             String salary = scholarship.nextLine();
-            double pSalary = Integer.parseInt(salary.trim());
+            double pSalary = Double.parseDouble(salary.trim());
             if (pSalary < 0) {
                 System.err.println("Invalid score! Please enter positive numbers only. ^o^");
                 scholarship.close();

@@ -45,7 +45,7 @@ public class Assignment3_BufferedReader {
 
                 System.out.println("Enter your Parent's Salary (Php): ");
                 String salary = scholarship.readLine();
-                double pSalary = Integer.parseInt(salary.trim());
+                double pSalary = Double.parseDouble(salary.trim());
                 if (pSalary < 0) {
                     System.err.println("Invalid format! Please positive digits only. ^o^");
                     System.exit(0);
