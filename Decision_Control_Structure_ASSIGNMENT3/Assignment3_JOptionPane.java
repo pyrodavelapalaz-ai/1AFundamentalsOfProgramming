@@ -55,7 +55,7 @@ public class Assignment3_JOptionPane {
 
             salary = JOptionPane.showInputDialog("Enter your Parent's Salary (Php): ");
 
-            int pSalary = Integer.parseInt(salary.trim());
+            double pSalary = Integer.parseInt(salary.trim());
             if (pSalary < 0) {
                 JOptionPane.showMessageDialog(null, msg3, msg2, JOptionPane.ERROR_MESSAGE);
                 return;
