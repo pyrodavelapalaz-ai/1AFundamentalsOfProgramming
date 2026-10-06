@@ -135,7 +135,7 @@ public class Assignment4_Scanner {
 
             System.out.println("Enter your height (cm):");
             String height = application.nextLine();
-            int reqHeight = Integer.parseInt(height.trim());
+            double reqHeight = Double.parseDouble(height.trim());
             if (reqHeight < 0) {
                 System.err.println("Invalid format! Please positive digits only. ^o^");
                 application.close();
@@ -275,7 +275,7 @@ public class Assignment4_Scanner {
 
             System.out.println("\n" + "Applicant Code:" + "\n" +
                     "Name: " + name + "\n" +
-                    "Height: " + reqHeight + "\n" +
+                    "Height: " + reqHeight  + "cm" + "\n" +
                     "Age: " + reqAge + "\n" +
                     "Citizenship: " + reqCitizenship + " (" + cCode + ")" + "\n" +
                     "Recommendee Code: " + rCode + "\n" +
