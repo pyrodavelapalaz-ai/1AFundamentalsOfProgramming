@@ -19,7 +19,7 @@ public class Assignment1_BufferedReader {
                         System.exit(0);
                     }
 
-                boolean isLeap = (leapYear % 4 == 0);
+                boolean isLeap = ((leapYear % 4 == 0 && leapYear % 100 != 0) || (leapYear % 400 == 0));
                 System.out.println(leapYear + (isLeap ? " is a Leap Year! ヾ(≧▽≦*)o" : " is NOT a Leap Year! (┬┬﹏┬┬)"));
 
             } catch (IOException e) {

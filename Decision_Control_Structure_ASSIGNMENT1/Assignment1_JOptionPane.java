@@ -21,7 +21,7 @@ public class Assignment1_JOptionPane {
                 return;
             }
 
-            boolean isLeap = (leapYear % 4 == 0);
+            boolean isLeap = ((leapYear % 4 == 0 && leapYear % 100 != 0) || (leapYear % 400 == 0));
 
             String msg1 = (leapYear + (isLeap ? " is a Leap Year! ヾ(≧▽≦*)o" : " is NOT a Leap Year! (┬┬﹏┬┬)"));
 

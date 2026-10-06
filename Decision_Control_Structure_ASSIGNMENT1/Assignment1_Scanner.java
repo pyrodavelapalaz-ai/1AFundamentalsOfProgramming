@@ -22,7 +22,7 @@ public class Assignment1_Scanner {
             return;
         }
 
-        boolean isLeap = (year % 4 == 0);
+        boolean isLeap = ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0));
 
         System.out.println(year + (isLeap ? " is a Leap Year! ヾ(≧▽≦*)o" : " is NOT a Leap Year! (┬┬﹏┬┬)"));
     }
