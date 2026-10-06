@@ -141,7 +141,7 @@ public class Assignment4_JOptionPane {
             String height = "";
             height = JOptionPane.showInputDialog("Enter your height (cm):");
 
-            int reqHeight = Integer.parseInt(height.trim());
+            double reqHeight = Double.parseDouble(height.trim());
             if (reqHeight < 0) {
                 JOptionPane.showMessageDialog(null, msg3, msg2, JOptionPane.ERROR_MESSAGE);
                 return;
@@ -284,7 +284,7 @@ public class Assignment4_JOptionPane {
             String cCode = (reqCitizenship == 5) ? "C" : "N";
 
             String appCodeMSG = "Name: " + name + "\n" +
-                    "Height: " + reqHeight + "\n" +
+                    "Height: " + reqHeight + "cm" + "\n" +
                     "Age: " + reqAge + "\n" +
                     "Citizenship: " + reqCitizenship + " (" + cCode + ")" + "\n" +
                     "Recommendee Code: " + rCode + "\n" +
