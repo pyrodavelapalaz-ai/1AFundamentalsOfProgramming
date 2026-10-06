@@ -9,7 +9,7 @@ For Scholarship:
     - NSAT Score: <90
     - Entrance Exam Score: <85
 
-    ACCEPTED (all)
+    ACCEPTED (all).
     - Parent's Salary: at most 3,500
     - Average of NSAT and Entrance Exam Score: >90
  */
